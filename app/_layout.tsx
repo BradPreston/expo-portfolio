@@ -17,8 +17,10 @@ export default function RootLayout() {
 	return (
 		<>
 			<Head title={`Brad Preston${project ? ` | ${project}` : ""}`} />
-			<View className="bg-slate-100 dark:bg-zinc-900 h-full">
-				<Slot />
+			<View className="bg-slate-100 dark:bg-black h-full">
+				<View className=" w-[600px] mx-auto py-20">
+					<Slot />
+				</View>
 			</View>
 		</>
 	);
