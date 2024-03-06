@@ -8,5 +8,5 @@ interface ParagraphProps {
 }
 
 export function Paragraph({ text, styles }: ParagraphProps) {
-	return <P className={twMerge(`text-zinc-800 dark:text-white text-base font-Poppins ${styles}`)}>{text}</P>;
+	return <P className={twMerge(`text-black dark:text-white text-base leading-6 font-Poppins ${styles}`)}>{text}</P>;
 }
