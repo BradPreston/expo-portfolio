@@ -11,11 +11,11 @@ interface HeadingProps {
 }
 
 export function Heading({ text, type, styles }: HeadingProps) {
-	const twStyles = "text-gold font-Poppins";
+	const twStyles = "text-white font-Poppins my-2";
 
 	switch (type) {
 		case "H1":
-			return <H1 className={twMerge(`${twStyles} text-[32px] my-2 ${styles}`)}>{text}</H1>;
+			return <H1 className={twMerge(`${twStyles} text-gold  text-[32px] ${styles}`)}>{text}</H1>;
 		case "H2":
 			return <H2 className={twMerge(`${twStyles} ${styles}`)}>{text}</H2>;
 		case "H3":
