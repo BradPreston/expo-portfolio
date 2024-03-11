@@ -1,11 +1,16 @@
-import { Link } from "expo-router";
-import { View, Text } from "react-native";
+import { Heading, Paragraph, Skills } from "@components";
+import { View } from "react-native";
+import { bio } from "@data";
 
 export default function Home() {
+	// will update later - show border below heading on scroll
+	const headingBorder = "border-solid border-b-2 border-gold";
+
 	return (
 		<View>
-			<Text className="text-red-500">Home page</Text>
-			<Link href={{ pathname: "/[project]", params: { project: "Brad" } }}>Brad</Link>
+			<Heading text="Brad Preston" type="H1" />
+			<Paragraph text={bio} />
+			<Skills />
 		</View>
 	);
 }
