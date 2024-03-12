@@ -1,3 +1,5 @@
+import { Project } from "@types";
+
 export const bio = `I am a ${getAge(
 	"05/03/1993"
 )} year old full stack developer from Kalamazoo, MI. I have a focus on React, React Native (Expo), and TypeScript with ${getAge(
@@ -19,14 +21,6 @@ function getAge(dateString: string) {
 export const preferredStack = ["React", "React Native", "Expo", "TypeScript"];
 
 export const techIveUsed = ["Nativewind", "Turborepo", "Tanstack Query", "GraphQL"];
-
-interface Project {
-	name: string;
-	url: string;
-	image: string;
-	stack: string[];
-	challenge: string;
-}
 
 export const projects: Project[] = [
 	{
