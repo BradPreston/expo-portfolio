@@ -1,4 +1,4 @@
-import { Heading, Paragraph, Skills } from "@components";
+import { Blog, Heading, Paragraph, Projects, Skills } from "@components";
 import { View } from "react-native";
 import { bio } from "@data";
 
@@ -11,6 +11,8 @@ export default function Home() {
 			<Heading text="Brad Preston" type="H1" />
 			<Paragraph text={bio} />
 			<Skills />
+			<Projects />
+			<Blog />
 		</View>
 	);
 }
