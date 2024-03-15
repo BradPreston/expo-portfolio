@@ -12,13 +12,19 @@ export interface Project {
 
 interface User {
 	id: string;
-	posts: Post[];
+	posts: {
+		edges: Post[];
+	};
 }
 
 interface Post {
-	title: string;
-	url: string;
-	coverImage: Image;
+	post: {
+		title: string;
+		url: string;
+		coverImage: {
+			url: string;
+		};
+	};
 }
 
 interface Image {
