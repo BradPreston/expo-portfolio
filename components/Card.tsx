@@ -17,7 +17,7 @@ export function Card({ name, url, image, target }: CardProps) {
 			<View className="border-solid border-2 border-red rounded p-2">
 				<A href={url} className="flex flex-col" target={target || "_self"}>
 					<Image source={image} contentFit="cover" style={{ flex: 1, width: "100%", aspectRatio: "16/9" }} />
-					<Heading type="H3" text={name} styles="self-center text-center" />
+					<Heading type="H3" text={name} styles="self-center text-center mb-0" />
 				</A>
 			</View>
 		);
@@ -27,7 +27,7 @@ export function Card({ name, url, image, target }: CardProps) {
 		<View className="border-solid border-2 border-red rounded p-2">
 			<Link href={`/${url}`} className="flex flex-col">
 				<Image source={image} contentFit="cover" style={{ flex: 1, width: "100%", aspectRatio: "16/9" }} />
-				<Heading type="H3" text={name} styles="self-center text-center" />
+				<Heading type="H3" text={name} styles="self-center text-center mb-0" />
 			</Link>
 		</View>
 	);
