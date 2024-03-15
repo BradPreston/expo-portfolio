@@ -30,5 +30,13 @@ export const projects: Project[] = [
 		stack: ["React Native", "Expo", "TypeScript", "Nativewind", "TanStack Query", "GraphQL"],
 		challenge:
 			"I've built a few test projects with Expo in the past, but nothing for the web only. I wanted to grow my skill set in Expo so I made this portfolio using Expo for the web. TanStack Query is another piece of tech that I've used in the past for projects and wanted to build on. Using GraphQL to fetch data from Hashnode for my blog was very easy using TanStack Query."
+	},
+	{
+		name: "One With the Riverbed",
+		url: "one-with-the-riverbed",
+		image: "../assets/onewiththeriverbed.png",
+		stack: ["NextJS", "TypeScript", "Tailwind", "Vercel"],
+		challenge:
+			"This is the first project I've personally built that has a real impact on a brand. I was asked to build this site to help market One With the Riverbed. We worked together to design the site in a way that best represents the band and their brand."
 	}
 ];
