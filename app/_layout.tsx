@@ -22,7 +22,7 @@ export default function RootLayout() {
 				<Head title={`Brad Preston${project ? ` | ${project}` : ""}`} />
 				<Main className="bg-slate-100 dark:bg-black h-full">
 					<ScrollView>
-						<View className=" w-[600px] mx-auto py-20 max-w-full">
+						<View className=" w-[600px] mx-auto py-20 max-w-full px-10">
 							<Slot />
 						</View>
 					</ScrollView>
