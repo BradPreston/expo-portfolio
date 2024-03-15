@@ -17,7 +17,7 @@ export function Skills() {
 	return (
 		<Section className="mt-8">
 			<Heading text="My Skills" type="H2" />
-			<View className="flex-row gap-10 mb-10">
+			<View className="flex-row justify-between xs:gap-10 xs:justify-normal mb-10">
 				<View>
 					<Heading text="Preferred Stack" type="H3" />
 					<List items={preferredStack} />
