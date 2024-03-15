@@ -15,7 +15,7 @@ export function Card({ project }: CardProps) {
 		<View className="border-solid border-2 border-red rounded p-2">
 			<Link href={`/${url}`} className="flex flex-col">
 				<Image source={image} contentFit="cover" style={{ flex: 1, width: "100%", aspectRatio: "16/9" }} />
-				<Heading type="H3" text={name} styles="self-center" />
+				<Heading type="H3" text={name} styles="self-center text-center" />
 			</Link>
 		</View>
 	);
