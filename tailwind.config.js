@@ -14,6 +14,9 @@ module.exports = {
 				red: "rgb(233 128 120)",
 				lightred: "rgba(213, 99, 90, .25)"
 			}
+		},
+		screens: {
+			xs: "450px"
 		}
 	},
 	plugins: []
