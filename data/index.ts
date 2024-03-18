@@ -20,7 +20,7 @@ function getAge(dateString: string) {
 
 export const preferredStack = ["React", "React Native", "Expo", "TypeScript"];
 
-export const techIveUsed = ["Nativewind", "Turborepo", "Tanstack Query", "GraphQL"];
+export const techIveUsed = ["Nativewind", "Turborepo", "Tanstack Query", "GraphQL", "Zustand"];
 
 export const projects: Project[] = [
 	{
@@ -40,3 +40,7 @@ export const projects: Project[] = [
 			"This is the first project I've personally built that has a real impact on a brand. I was asked to build this site to help market One With the Riverbed. We worked together to design the site in a way that best represents the band and their brand."
 	}
 ];
+
+export const aboutMe = `I am a self taught guitar player of ${getAge(
+	"01/01/2003"
+)} years, a die-hard Detroit Red Wings fan, and a lover of Pokemon. Being a guitar player, I'm a big fan of music. Some of my favorite genres are country/folk, jazz, and progressive rock. I also enjoy a good book. Sci-fi, horror, and fantasy are some of my favorite genres.`;
