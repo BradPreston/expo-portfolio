@@ -9,12 +9,12 @@ export default function Project() {
 
 	if (!project_url) return;
 
-	const project = projects.filter(p => p.url === project_url)[0] || null;
+	const project = projects.filter((p) => p.url === project_url)[0] || null;
 
 	if (!project) {
 		return (
 			<View>
-				<Heading type='H1' text="No such project" />
+				<Heading type="H1" text="No such project" />
 			</View>
 		);
 	}
@@ -28,8 +28,12 @@ export default function Project() {
 	return (
 		<View>
 			<Button text="Go Back" onPress={handleGoBack} />
-			<Heading type='H1' text={project.name} styles="mt-5" />
-			<Image source={project.image} contentFit="cover" style={{ flex: 1, width: "100%", aspectRatio: "16/9", marginVertical: 10 }} />
+			<Heading type="H1" text={project.name} styles="mt-5" />
+			<Image
+				source={project.image}
+				contentFit="cover"
+				style={{ flex: 1, width: "100%", aspectRatio: "16/9", marginVertical: 10 }}
+			/>
 			<Heading type="H2" text="Challenge" />
 			<Paragraph text={project.challenge} />
 			<Heading type="H2" text="Stack" />
