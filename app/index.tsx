@@ -1,4 +1,4 @@
-import { Blog, Heading, Paragraph, Projects, Skills, AboutMe } from "@components";
+import { Blog, Heading, Paragraph, Projects, Skills, AboutMe, Socials } from "@components";
 import { View } from "react-native";
 import { bio } from "@data";
 
@@ -14,6 +14,7 @@ export default function Home() {
 			<Projects />
 			<Blog />
 			<AboutMe />
+			<Socials />
 		</View>
 	);
 }

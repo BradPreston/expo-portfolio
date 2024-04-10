@@ -9,3 +9,4 @@ export { Skills } from "./sections/Skills";
 export { Blog } from "./sections/Blog";
 export { Projects } from "./sections/Projects";
 export { AboutMe } from "./sections/AboutMe";
+export { Socials } from "./sections/Socials";
