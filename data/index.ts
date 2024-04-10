@@ -43,7 +43,7 @@ export const projects: Project[] = [
 
 export const aboutMe = `I am a self taught guitar player of ${getAge(
 	"01/01/2003"
-)} years, a die-hard Detroit Red Wings fan, and a lover of Pokemon. Being a guitar player, I'm a big fan of music. Some of my favorite genres are country/folk, jazz, and progressive rock. I also enjoy a good book. Sci-fi, horror, and fantasy are some of my favorite genres.`;
+)} years, a die-hard Detroit Red Wings fan, and a lover of Pokemon. Being a guitar player, I'm a big fan of music. Some of my favorite genres are country/folk, jazz, and progressive rock. I also enjoy a good Sci-fi, horror, or fantasy book.`;
 
 export const socials: {
 	name: string;
