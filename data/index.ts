@@ -2,7 +2,7 @@ import { Project } from "@types";
 
 export const bio = `I am a ${getAge(
 	"05/03/1993"
-)} year old full stack developer from Kalamazoo, MI. I have a focus on React, React Native (Expo), and TypeScript with ${getAge(
+)} year old developer from Kalamazoo, MI. I have a focus on React, React Native (Expo), and TypeScript with ${getAge(
 	"01/01/2017"
 )} years of practice and ${getAge("07/01/2021")} years of professional experience.`;
 
